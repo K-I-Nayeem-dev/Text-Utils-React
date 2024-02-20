@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Text Utils App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Text Utils app is a web application designed to provide various text manipulation utilities, including changing text, previewing text, changing website color using a color bar, and implementing a dark mode feature.
 
-## Available Scripts
+## Features
+- **Text Manipulation:** Allows users to change text by applying different transformations such as converting to uppercase, lowercase, title case, etc.
+- **Text Preview:** Provides a preview of the manipulated text in real-time.
+- **Color Bar:** Enables users to change the website color by selecting a color from a color bar.
+- **Dark Mode:** Includes a dark mode feature to toggle between light and dark themes for improved readability.
 
-In the project directory, you can run:
+## Technologies Used
+- HTML/CSS
+- JavaScript
+- Bootstrap (optional for styling)
+- Color Picker library (optional for color selection)
 
-### `npm start`
+## Installation
+1. Clone this repository to your local machine.
+2. Navigate to the project directory: `cd text-utils-app`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+1. Open the `index.html` file in a web browser.
+2. Use the provided text input field to enter the text you want to manipulate.
+3. Select the desired text transformation options (e.g., uppercase, lowercase) from the dropdown menu.
+4. View the preview of the manipulated text in real-time.
+5. Use the color bar to change the website color to your preference.
+6. Toggle the dark mode feature to switch between light and dark themes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
+- `index.html` - Contains the HTML structure of the web application.
+- `styles.css` - Contains the CSS styles for the application.
+- `script.js` - Contains the JavaScript code for text manipulation, color selection, and dark mode implementation.
 
-### `npm test`
+## Contributing
+Contributions are welcome! Please fork this repository and submit a pull request with your enhancements or bug fixes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run build`
+## Acknowledgements
+- Bootstrap Documentation: [getbootstrap.com/docs](https://getbootstrap.com/docs)
+- Color Picker Library: [github.com/Simonwep/pickr](https://github.com/Simonwep/pickr)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any inquiries or issues, please contact Kamrul Islam Nayeem at kamrulnayeem019@gmail.com.
